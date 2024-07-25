@@ -49,6 +49,8 @@ public class BevandeController {
         return ResponseEntity.notFound().build();
     }
 
+
+
     @DeleteMapping("/deleteBevande/{id}")
     public ResponseEntity<String> deleteBevande(@PathVariable int id) {
         Boolean b = bevandeService.deleteBevande(id);
