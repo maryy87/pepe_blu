@@ -1,7 +1,7 @@
-package com.example.pepe.blu.service;
+package com.example.pepe.blu.service.security;
 
-import com.example.pepe.blu.entities.CustomerEntity;
-import com.example.pepe.blu.repository.CustomerRepository;
+import com.example.pepe.blu.entities.security.CustomerEntity;
+import com.example.pepe.blu.repository.security.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

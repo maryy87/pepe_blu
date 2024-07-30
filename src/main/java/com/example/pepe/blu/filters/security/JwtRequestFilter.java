@@ -1,7 +1,7 @@
-package com.example.pepe.blu.filters;
+package com.example.pepe.blu.filters.security;
 
-import com.example.pepe.blu.service.CustomerServiceImpl;
-import com.example.pepe.blu.util.JwtUtil;
+import com.example.pepe.blu.service.security.CustomerServiceImpl;
+import com.example.pepe.blu.util.security.JwtUtil;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import jakarta.servlet.FilterChain;
@@ -14,7 +14,6 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
-import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
 @Component

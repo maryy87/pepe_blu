@@ -1,4 +1,4 @@
-package com.example.pepe.blu.util;
+package com.example.pepe.blu.util.security;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

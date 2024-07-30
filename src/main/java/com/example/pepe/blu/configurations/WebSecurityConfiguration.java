@@ -1,6 +1,6 @@
 package com.example.pepe.blu.configurations;
 
-import com.example.pepe.blu.filters.JwtRequestFilter;
+import com.example.pepe.blu.filters.security.JwtRequestFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

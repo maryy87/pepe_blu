@@ -1,4 +1,4 @@
-package com.example.pepe.blu.entities;
+package com.example.pepe.blu.entities.security;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

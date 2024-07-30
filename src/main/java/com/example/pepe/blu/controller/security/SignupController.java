@@ -1,11 +1,10 @@
-package com.example.pepe.blu.controller;
+package com.example.pepe.blu.controller.security;
 
 
-import com.example.pepe.blu.dto.request.SignupRequest;
-import com.example.pepe.blu.service.AuthService;
+import com.example.pepe.blu.dto.request.security.SignupRequest;
+import com.example.pepe.blu.service.security.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

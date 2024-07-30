@@ -1,8 +1,8 @@
-package com.example.pepe.blu.service;
+package com.example.pepe.blu.service.security;
 
-import com.example.pepe.blu.dto.request.SignupRequest;
-import com.example.pepe.blu.entities.CustomerEntity;
-import com.example.pepe.blu.repository.CustomerRepository;
+import com.example.pepe.blu.dto.request.security.SignupRequest;
+import com.example.pepe.blu.entities.security.CustomerEntity;
+import com.example.pepe.blu.repository.security.CustomerRepository;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
-public class AuthServiceImpl implements AuthService{
+public class AuthServiceImpl implements AuthService {
 
 
     private final CustomerRepository customerRepository;

@@ -1,4 +1,4 @@
-package com.example.pepe.blu.dto.request;
+package com.example.pepe.blu.dto.response.security;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,8 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginRequest {
+public class LoginResponse {
 
-    private String email;
-    private String password;
+    private String jwtToken;
 }

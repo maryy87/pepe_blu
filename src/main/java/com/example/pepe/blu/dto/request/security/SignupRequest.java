@@ -1,4 +1,4 @@
-package com.example.pepe.blu.dto.request;
+package com.example.pepe.blu.dto.request.security;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

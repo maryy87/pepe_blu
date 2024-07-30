@@ -1,9 +1,9 @@
-package com.example.pepe.blu.controller;
+package com.example.pepe.blu.controller.security;
 
-import com.example.pepe.blu.dto.LoginResponse;
-import com.example.pepe.blu.dto.request.LoginRequest;
-import com.example.pepe.blu.service.CustomerServiceImpl;
-import com.example.pepe.blu.util.JwtUtil;
+import com.example.pepe.blu.dto.response.security.LoginResponse;
+import com.example.pepe.blu.dto.request.security.LoginRequest;
+import com.example.pepe.blu.service.security.CustomerServiceImpl;
+import com.example.pepe.blu.util.security.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
