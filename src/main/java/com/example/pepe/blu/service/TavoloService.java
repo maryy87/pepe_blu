@@ -1,10 +1,10 @@
 package com.example.pepe.blu.service;
 
-import com.example.pepe.blu.dto.request.FiltroTavoloRequest;
+import com.example.pepe.blu.filters.FiltroTavoloRequest;
 import com.example.pepe.blu.repository.CustomTavoloRepository;
 import com.example.pepe.blu.repository.TavoloRepository;
 import com.example.pepe.blu.dto.request.TavoloRequest;
-import com.example.pepe.blu.dto.response.TavoloResponse;
+import com.example.pepe.blu.dto.TavoloResponse;
 import com.example.pepe.blu.entities.TavoloEntity;
 import com.example.pepe.blu.mapper.TavoloMapper;
 import org.springframework.beans.factory.annotation.Autowired;

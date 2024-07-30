@@ -1,10 +1,10 @@
 package com.example.pepe.blu.service;
 
-import com.example.pepe.blu.dto.request.FiltroDepartementRequest;
+import com.example.pepe.blu.filters.FiltroDepartementRequest;
 import com.example.pepe.blu.repository.CustomDepartmentRepository;
 import com.example.pepe.blu.repository.DepartmentRepository;
 import com.example.pepe.blu.dto.request.DepartmentRequest;
-import com.example.pepe.blu.dto.response.DepartmentResponse;
+import com.example.pepe.blu.dto.DepartmentResponse;
 import com.example.pepe.blu.entities.DepartmentEntity;
 import com.example.pepe.blu.mapper.DepartmentMapper;
 import org.springframework.beans.factory.annotation.Autowired;

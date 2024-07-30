@@ -1,10 +1,10 @@
 package com.example.pepe.blu.service;
 
-import com.example.pepe.blu.dto.request.FiltroEmployerRequest;
+import com.example.pepe.blu.filters.FiltroEmployerRequest;
 import com.example.pepe.blu.repository.CustomEmployerRepository;
 import com.example.pepe.blu.repository.EmployerRepository;
 import com.example.pepe.blu.dto.request.EmployerRequest;
-import com.example.pepe.blu.dto.response.EmployerResponse;
+import com.example.pepe.blu.dto.EmployerResponse;
 import com.example.pepe.blu.entities.EmployerEntity;
 import com.example.pepe.blu.mapper.EmployerMapper;
 import org.springframework.beans.factory.annotation.Autowired;

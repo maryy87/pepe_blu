@@ -1,6 +1,6 @@
 package com.example.pepe.blu.repository;
 
-import com.example.pepe.blu.dto.request.FiltroTavoloRequest;
+import com.example.pepe.blu.filters.FiltroTavoloRequest;
 import com.example.pepe.blu.entities.TavoloEntity;
 
 import java.util.List;

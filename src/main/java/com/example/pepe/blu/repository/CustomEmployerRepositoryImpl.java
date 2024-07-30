@@ -1,7 +1,6 @@
 package com.example.pepe.blu.repository;
 
-import com.example.pepe.blu.dto.request.FiltroEmployerRequest;
-import com.example.pepe.blu.entities.ArticoloEntity;
+import com.example.pepe.blu.filters.FiltroEmployerRequest;
 import com.example.pepe.blu.entities.DepartmentEntity;
 import com.example.pepe.blu.entities.EmployerEntity;
 import jakarta.persistence.EntityManager;

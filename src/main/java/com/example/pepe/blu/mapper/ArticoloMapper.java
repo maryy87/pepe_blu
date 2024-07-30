@@ -1,7 +1,7 @@
 package com.example.pepe.blu.mapper;
 
 import com.example.pepe.blu.dto.request.ArticoloRequest;
-import com.example.pepe.blu.dto.response.ArticoloResponse;
+import com.example.pepe.blu.dto.ArticoloResponse;
 import com.example.pepe.blu.entities.ArticoloEntity;
 import org.mapstruct.Mapper;
 

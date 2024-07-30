@@ -1,10 +1,10 @@
 package com.example.pepe.blu.service;
 
-import com.example.pepe.blu.dto.request.FiltroPaymentRequest;
+import com.example.pepe.blu.filters.FiltroPaymentRequest;
 import com.example.pepe.blu.repository.CustomPaymentRepository;
 import com.example.pepe.blu.repository.PaymentEmployerRepository;
 import com.example.pepe.blu.dto.request.PaymentEmployerRequest;
-import com.example.pepe.blu.dto.response.PaymentEmployerResponse;
+import com.example.pepe.blu.dto.PaymentEmployerResponse;
 import com.example.pepe.blu.entities.PaymentEmployerEntity;
 import com.example.pepe.blu.mapper.PaymentEmployerMaperr;
 import org.springframework.beans.factory.annotation.Autowired;

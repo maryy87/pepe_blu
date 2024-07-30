@@ -1,10 +1,10 @@
 package com.example.pepe.blu.service;
 
-import com.example.pepe.blu.dto.request.FiltroPiattoRequest;
+import com.example.pepe.blu.filters.FiltroPiattoRequest;
 import com.example.pepe.blu.repository.CustomPiattoRepository;
 import com.example.pepe.blu.repository.PiattoRepository;
 import com.example.pepe.blu.dto.request.PiattoRequest;
-import com.example.pepe.blu.dto.response.PiattoResponse;
+import com.example.pepe.blu.dto.PiattoResponse;
 import com.example.pepe.blu.entities.PiattoEntity;
 import com.example.pepe.blu.mapper.PiattoMapper;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,17 +1,14 @@
 package com.example.pepe.blu.controller;
 
 import com.example.pepe.blu.dto.request.ArticoloRequest;
-import com.example.pepe.blu.dto.request.FiltroArticoloRequest;
-import com.example.pepe.blu.dto.response.ArticoloResponse;
-import com.example.pepe.blu.entities.ArticoloEntity;
+import com.example.pepe.blu.filters.FiltroArticoloRequest;
+import com.example.pepe.blu.dto.ArticoloResponse;
 import com.example.pepe.blu.service.ArticoloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/Articolo")

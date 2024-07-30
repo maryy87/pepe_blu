@@ -1,14 +1,13 @@
 package com.example.pepe.blu.controller;
 
-import com.example.pepe.blu.dto.request.FiltroPaymentRequest;
+import com.example.pepe.blu.filters.FiltroPaymentRequest;
 import com.example.pepe.blu.dto.request.PaymentEmployerRequest;
-import com.example.pepe.blu.dto.response.PaymentEmployerResponse;
+import com.example.pepe.blu.dto.PaymentEmployerResponse;
 import com.example.pepe.blu.service.PaymentEmployerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

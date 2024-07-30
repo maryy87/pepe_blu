@@ -1,19 +1,14 @@
 package com.example.pepe.blu.controller;
 
-import com.example.pepe.blu.dto.request.FiltroOrdineRequest;
+import com.example.pepe.blu.filters.FiltroOrdineRequest;
 import com.example.pepe.blu.dto.request.OrdineFinaleRequest;
-import com.example.pepe.blu.dto.response.OrdineFinaleResponse;
-import com.example.pepe.blu.entities.OrdineEntity;
-import com.example.pepe.blu.entities.OrdineFinaleEntity;
+import com.example.pepe.blu.dto.OrdineFinaleResponse;
 import com.example.pepe.blu.service.OrdineFinaleService;
 import com.example.pepe.blu.util.Periodo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

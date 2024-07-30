@@ -1,10 +1,7 @@
 package com.example.pepe.blu.mapper;
 
-import com.example.pepe.blu.dto.request.ArticoloRequest;
 import com.example.pepe.blu.dto.request.PrenotazioneRequest;
-import com.example.pepe.blu.dto.response.ArticoloResponse;
-import com.example.pepe.blu.dto.response.PrenotazioneResponse;
-import com.example.pepe.blu.entities.ArticoloEntity;
+import com.example.pepe.blu.dto.PrenotazioneResponse;
 import com.example.pepe.blu.entities.PrenotazioneEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

@@ -1,14 +1,14 @@
 package com.example.pepe.blu.controller;
 
+import com.example.pepe.blu.filters.FiltroDepartementRequest;
 import com.example.pepe.blu.dto.request.DepartmentRequest;
-import com.example.pepe.blu.dto.request.FiltroDepartementRequest;
-import com.example.pepe.blu.dto.response.DepartmentResponse;
+
+import com.example.pepe.blu.dto.DepartmentResponse;
 import com.example.pepe.blu.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

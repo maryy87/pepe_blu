@@ -1,6 +1,6 @@
 package com.example.pepe.blu.repository;
 
-import com.example.pepe.blu.dto.request.FiltroArticoloRequest;
+import com.example.pepe.blu.filters.FiltroArticoloRequest;
 import com.example.pepe.blu.entities.ArticoloEntity;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.criteria.CriteriaBuilder;

@@ -1,15 +1,13 @@
 package com.example.pepe.blu.controller;
 
-import com.example.pepe.blu.dto.request.FiltroPiattoRequest;
+import com.example.pepe.blu.filters.FiltroPiattoRequest;
 import com.example.pepe.blu.dto.request.PiattoRequest;
-import com.example.pepe.blu.dto.response.PiattoResponse;
-import com.example.pepe.blu.entities.PiattoEntity;
+import com.example.pepe.blu.dto.PiattoResponse;
 import com.example.pepe.blu.service.PiattoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

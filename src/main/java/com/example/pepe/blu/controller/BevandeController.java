@@ -1,8 +1,8 @@
 package com.example.pepe.blu.controller;
 
 import com.example.pepe.blu.dto.request.BevandeRequest;
-import com.example.pepe.blu.dto.request.FiltroBevandeRequest;
-import com.example.pepe.blu.dto.response.BevandeResponse;
+import com.example.pepe.blu.filters.FiltroBevandeRequest;
+import com.example.pepe.blu.dto.BevandeResponse;
 import com.example.pepe.blu.service.BevandeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

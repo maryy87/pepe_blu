@@ -1,9 +1,9 @@
 package com.example.pepe.blu.service;
 
-import com.example.pepe.blu.dto.request.FiltroBevandeRequest;
+import com.example.pepe.blu.filters.FiltroBevandeRequest;
 import com.example.pepe.blu.repository.BevandeRepository;
 import com.example.pepe.blu.dto.request.BevandeRequest;
-import com.example.pepe.blu.dto.response.BevandeResponse;
+import com.example.pepe.blu.dto.BevandeResponse;
 import com.example.pepe.blu.entities.BevandeEntity;
 import com.example.pepe.blu.mapper.BevandeMapper;
 import com.example.pepe.blu.repository.CustomBevandeRepository;

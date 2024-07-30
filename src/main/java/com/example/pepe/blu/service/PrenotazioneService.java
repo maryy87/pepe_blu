@@ -1,13 +1,11 @@
 package com.example.pepe.blu.service;
 
-import com.example.pepe.blu.dto.request.FiltroPrenotazioneRequest;
-import com.example.pepe.blu.dto.request.TavoloRequest;
-import com.example.pepe.blu.dto.response.TavoloResponse;
+import com.example.pepe.blu.filters.FiltroPrenotazioneRequest;
 import com.example.pepe.blu.mapper.TavoloMapper;
 import com.example.pepe.blu.repository.CustomPrenotazioneRepository;
 import com.example.pepe.blu.repository.PrenotazioneRepository;
 import com.example.pepe.blu.dto.request.PrenotazioneRequest;
-import com.example.pepe.blu.dto.response.PrenotazioneResponse;
+import com.example.pepe.blu.dto.PrenotazioneResponse;
 import com.example.pepe.blu.entities.PrenotazioneEntity;
 import com.example.pepe.blu.mapper.PrenotazioneMapper;
 import org.springframework.beans.factory.annotation.Autowired;

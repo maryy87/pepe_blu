@@ -1,8 +1,6 @@
 package com.example.pepe.blu.repository;
 
-import com.example.pepe.blu.dto.request.FiltroPiattoRequest;
-import com.example.pepe.blu.dto.request.PiattoRequest;
-import com.example.pepe.blu.entities.EmployerEntity;
+import com.example.pepe.blu.filters.FiltroPiattoRequest;
 import com.example.pepe.blu.entities.PiattoEntity;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.criteria.CriteriaBuilder;

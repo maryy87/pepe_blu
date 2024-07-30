@@ -1,12 +1,9 @@
 package com.example.pepe.blu.mapper;
 
 import com.example.pepe.blu.dto.request.BevandeRequest;
-import com.example.pepe.blu.dto.response.ArticoloResponse;
-import com.example.pepe.blu.dto.response.BevandeResponse;
-import com.example.pepe.blu.entities.ArticoloEntity;
+import com.example.pepe.blu.dto.BevandeResponse;
 import com.example.pepe.blu.entities.BevandeEntity;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 
 import java.util.List;
 

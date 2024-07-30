@@ -1,12 +1,10 @@
 package com.example.pepe.blu.repository;
 
-import com.example.pepe.blu.dto.request.FiltroPaymentRequest;
+import com.example.pepe.blu.filters.FiltroPaymentRequest;
 import com.example.pepe.blu.entities.EmployerEntity;
 import com.example.pepe.blu.entities.PaymentEmployerEntity;
-import jakarta.persistence.Entity;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.criteria.*;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

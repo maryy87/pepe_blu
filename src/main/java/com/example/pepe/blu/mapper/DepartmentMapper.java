@@ -1,10 +1,7 @@
 package com.example.pepe.blu.mapper;
 
-import com.example.pepe.blu.dto.request.BevandeRequest;
 import com.example.pepe.blu.dto.request.DepartmentRequest;
-import com.example.pepe.blu.dto.response.BevandeResponse;
-import com.example.pepe.blu.dto.response.DepartmentResponse;
-import com.example.pepe.blu.entities.BevandeEntity;
+import com.example.pepe.blu.dto.DepartmentResponse;
 import com.example.pepe.blu.entities.DepartmentEntity;
 import org.mapstruct.Mapper;
 

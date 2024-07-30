@@ -1,7 +1,7 @@
 package com.example.pepe.blu.mapper;
 
 import com.example.pepe.blu.dto.request.OrdineFinaleRequest;
-import com.example.pepe.blu.dto.response.OrdineFinaleResponse;
+import com.example.pepe.blu.dto.OrdineFinaleResponse;
 import com.example.pepe.blu.entities.OrdineFinaleEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

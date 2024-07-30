@@ -1,10 +1,10 @@
 package com.example.pepe.blu.service;
 
-import com.example.pepe.blu.dto.request.FiltroOrdineRequest;
+import com.example.pepe.blu.filters.FiltroOrdineRequest;
 import com.example.pepe.blu.dto.request.OrdineFinaleRequest;
-import com.example.pepe.blu.dto.response.BevandeResponse;
-import com.example.pepe.blu.dto.response.OrdineFinaleResponse;
-import com.example.pepe.blu.dto.response.PiattoResponse;
+import com.example.pepe.blu.dto.BevandeResponse;
+import com.example.pepe.blu.dto.OrdineFinaleResponse;
+import com.example.pepe.blu.dto.PiattoResponse;
 import com.example.pepe.blu.entities.OrdineFinaleEntity;
 import com.example.pepe.blu.mapper.OrdineFinaleMapper;
 import com.example.pepe.blu.repository.CustomOrdineRepository;

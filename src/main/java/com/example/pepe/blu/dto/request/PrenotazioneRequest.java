@@ -1,7 +1,6 @@
 package com.example.pepe.blu.dto.request;
 
 import com.example.pepe.blu.util.StatoPrenotazione;
-import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

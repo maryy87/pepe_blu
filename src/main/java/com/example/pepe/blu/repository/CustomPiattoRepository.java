@@ -1,6 +1,6 @@
 package com.example.pepe.blu.repository;
 
-import com.example.pepe.blu.dto.request.FiltroPiattoRequest;
+import com.example.pepe.blu.filters.FiltroPiattoRequest;
 import com.example.pepe.blu.entities.PiattoEntity;
 
 import java.util.List;

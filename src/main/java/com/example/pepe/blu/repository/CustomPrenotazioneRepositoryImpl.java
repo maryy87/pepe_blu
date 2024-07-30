@@ -1,9 +1,6 @@
 package com.example.pepe.blu.repository;
 
-import com.example.pepe.blu.dto.request.FiltroPiattoRequest;
-import com.example.pepe.blu.dto.request.FiltroPrenotazioneRequest;
-import com.example.pepe.blu.dto.request.PrenotazioneRequest;
-import com.example.pepe.blu.entities.EmployerEntity;
+import com.example.pepe.blu.filters.FiltroPrenotazioneRequest;
 import com.example.pepe.blu.entities.PrenotazioneEntity;
 import com.example.pepe.blu.entities.TavoloEntity;
 import jakarta.persistence.EntityManager;

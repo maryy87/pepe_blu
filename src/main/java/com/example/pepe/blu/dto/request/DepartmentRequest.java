@@ -1,6 +1,5 @@
 package com.example.pepe.blu.dto.request;
 
-import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

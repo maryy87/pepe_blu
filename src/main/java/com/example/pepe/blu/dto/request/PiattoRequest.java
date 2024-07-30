@@ -2,7 +2,6 @@ package com.example.pepe.blu.dto.request;
 
 import com.example.pepe.blu.util.Intolleranze;
 import com.example.pepe.blu.util.TipoPiatto;
-import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
